@@ -1,0 +1,23 @@
+.trending-products {
+
+}
+.trending-products .title {
+   padding: 1rem 0;
+   font-size: 1rem
+}
+.trending-products .title .sologan {
+   color: lightgrey;
+   font-size: 0.8em;
+}
+.trending-products .title .cat {
+   font-size: 1.2em;
+}
+.trending-products .products {
+   display: flex;
+   flex-wrap: wrap;
+}
+.trending-products .product-item {
+   max-width: 25%;
+   flex-shrink: 0;
+   width: 25%;
+}

@@ -1,0 +1,13 @@
+.category .header {
+   padding: 1.5rem 0;
+}
+.category .category-shop {
+   padding: 1rem 0 1.5rem;
+}
+.category .category-item {
+   display: block;
+}
+.category .category-item img {
+   margin:  0 auto;
+   display: block;
+}

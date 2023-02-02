@@ -1,0 +1,13 @@
+#navbarNavAltMarkup {
+   justify-content: space-between;
+}
+.navbar-component .nav-link {
+   font-style: italic;
+   font-weight: 500;
+}
+.navbar-component .nav-link svg {
+   margin-right: 5px;
+}
+.navbar-component .nav-link.active {
+   color: goldenrod;
+}

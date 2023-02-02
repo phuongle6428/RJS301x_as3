@@ -1,0 +1,65 @@
+.register {
+   width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background-image: url('./../../../public/banner1.jpg');
+}
+.register__container {
+   width: 40%;
+   padding: 3rem;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.register__title {
+   color: #555555;
+   font-size: 2rem;
+   font-weight: 300;
+   font-style: italic;
+   margin-bottom: 2rem;
+}
+.register__form {
+   width: 100%;
+   padding: 1rem;
+}
+.register__input-container {
+   /* padding: 0.5rem 0; */
+}
+:focus-visible {
+   outline: none;
+}
+.register__input {
+   width: 100%;
+   padding: 1rem;
+   border-color: rgba(85, 85, 85, 0.2);
+}
+.register__btn-container {
+   margin: 1rem auto;
+   width: 100%;
+}
+.register__btn {
+   width: 100%;
+   padding: 1rem;
+	background-color: #494949;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 1.2;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.register__btn:hover {
+   background-color: #292929;
+}
+.register .error-text {
+   color: red;
+   padding: 0.5rem 0;
+}

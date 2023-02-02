@@ -1,0 +1,21 @@
+.list-cart .product-link {
+   color: black;
+   font-size: 1.5rem;
+   text-decoration: none;
+   font-style: italic;
+}
+.list-cart .quantity {
+   display: flex;
+   align-items: center;
+}
+.list-cart .quantity input {
+   text-align: center;
+   width: 3rem;
+   background-color: unset;
+}
+.list-cart .dec-btn {
+   cursor: pointer;
+}
+.list-cart .inc-btn {
+   cursor: pointer;
+}

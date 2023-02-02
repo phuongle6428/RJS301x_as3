@@ -1,0 +1,9 @@
+.product-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+.product-list > * {
+   flex-shrink: 0;
+   min-width: 25%;
+   flex-basis: 20%;
+}

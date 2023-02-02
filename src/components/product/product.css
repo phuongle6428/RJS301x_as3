@@ -1,0 +1,27 @@
+.product-component:hover {
+   transition: all 0.5s;
+   opacity: 0.6;
+}
+.product-component .img-container {
+   display: block;
+}
+.product-component .img-container img {
+   max-width: 100%;
+   display: block;
+   object-fit: contain;
+}
+.product-component .product-info {
+   padding: 0.5rem 1rem;
+} 
+.product-component .title {
+   display: block;
+   text-align: center;
+   appearance: none;
+   color: black;
+   text-decoration: none;
+   font-weight: 500;
+}
+.product-component .price {
+   text-align: center;
+   color: gray;
+}
